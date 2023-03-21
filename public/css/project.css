@@ -54,3 +54,10 @@ button {
 .selected_button{
     border: 3px solid black;
 }
+
+.error-messages{
+border: 3px;
+border-style: solid;
+border-color: red;
+color: red;
+}

@@ -17,7 +17,9 @@ app.get("/", (req, res) => {
 app.get("/profile", (req, res) => {
   res.sendFile(path.resolve(__dirname + "/views/", "profile.html"));
 });
-
+app.get("/profile2", (req, res) => {
+  res.sendFile(path.resolve(__dirname + "/views/", "profile.html"));
+});
 app.get("/math", (req, res) => {
   res.sendFile(path.resolve(__dirname + "/views/", "math.html"));
 });
